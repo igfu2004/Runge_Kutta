@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# Resolucion de una ecuacion diferencial de un sistema dinamico por medio del metodo de Runge Kutta
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Este metodo es aplicado a un caso en el que la funcion no depende explicitamente del tiempo.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
