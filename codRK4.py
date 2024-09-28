@@ -35,7 +35,7 @@ for tt in range(times.size):
     yInit = yN
 
 #Grafica de la funcion
-'''
+
 plt.style.use('_mpl-gallery')
 
 plt.figure(figsize=(6, 3), dpi=150)
@@ -46,4 +46,3 @@ plt.xlabel('Tiempo')
 plt.ylabel('Estado')
 plt.legend()
     plt.show()
-'''
