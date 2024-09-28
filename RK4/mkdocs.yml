@@ -1,4 +1,4 @@
-site_name: GeneradorDinamico
+site_name: Metodo Runge Kutta para la resolucion de sistemas dinamicos
 
 theme:
   name: "material"

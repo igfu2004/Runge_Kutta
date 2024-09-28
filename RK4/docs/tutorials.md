@@ -1,6 +1,11 @@
-#!/usr/bin/env python3
+#Ejemplo de uso
+
+Este es un ejemplo de uso de la aplicacion de este metodo a un sistema con las caracteristicas descritas; copiar en un ejecutable de python.
+
+~~~
 
 import numpy as np
+
 import matplotlib.pyplot as plt
 
 iConst = 1.0j
@@ -10,7 +15,7 @@ oOper = np.array([[0, 1], [1, 0]])
 yInit = np.array([[1, 0], [0, 0]])
 
 def dyn_generator(oper, state):
-    return -1.0j*(np.dot(oper,state)-np.dot(state,oper))
+    \indent return -1.0j*(np.dot(oper,state)-np.dot(state,oper))
 
 def rk4(func, oper, state, h):
     k1 = h*func(oper,state)
@@ -31,7 +36,7 @@ stateQuant11 = np.zeros(times.size)
 for tt in range(times.size):
     stateQuant00[tt] = (yInit[0,0]).real
     stateQuant11[tt] = (yInit[1,1]).real
-    yN=rk4(dyn_generator,oOper,yInit,h) 
+    yN=rk4(dyn_generator,oOper,yInit,h)
     yInit = yN
 
 #Grafica de la funcion
@@ -45,4 +50,5 @@ plt.plot(times,stateQuant11,label='Estado(1,1)',color='b')
 plt.xlabel('Tiempo')
 plt.ylabel('Estado')
 plt.legend()
-    plt.show()
+plt.show()
+~~~
