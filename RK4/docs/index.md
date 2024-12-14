@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Resolucion de una ecuacion diferencial de un sistema dinamico por medio del metodo de Runge Kutta
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+El metodo de Runge Kutta de 4to orden (o RK4 para abreviar) es un metodo numerico usado para la aproximacion de una ecuacion diferencial a un valor especifico dado por la funcion de interes.
+Gracias a este metodo se peude conseguir resultados muy precisos, lo cual es ideal para la resolucion de este tipo de problema de sistemas dinamicos.
 
-## Commands
+En el caso de este modulo el metodo es aplicado a una funcion que no depende explicitamente del tiempo.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
